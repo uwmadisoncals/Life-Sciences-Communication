@@ -123,6 +123,7 @@ function twentyeleven_setup() {
 		'flex-height' => true,
 		// Random image rotation by default.
 		'random-default' => true,
+		'header-text' => false,
 		// Callback for styling the header.
 		'wp-head-callback' => 'twentyeleven_header_style',
 		// Callback for styling the header preview in the admin.
@@ -136,7 +137,7 @@ function twentyeleven_setup() {
 	if ( ! function_exists( 'get_custom_header' ) ) {
 		// This is all for compatibility with versions of WordPress prior to 3.4.
 		define( 'HEADER_TEXTCOLOR', $custom_header_support['default-text-color'] );
-		define( 'HEADER_IMAGE', '%s/images/headers/cals_primary.png' );
+		define( 'HEADER_IMAGE', '%s/images/headers/lsc_logo.png' );
 		define( 'HEADER_IMAGE_WIDTH', $custom_header_support['width'] );
 		define( 'HEADER_IMAGE_HEIGHT', $custom_header_support['height'] );
 		add_custom_image_header( $custom_header_support['wp-head-callback'], $custom_header_support['admin-head-callback'], $custom_header_support['admin-preview-callback'] );
@@ -157,8 +158,8 @@ function twentyeleven_setup() {
 	// Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
 	register_default_headers( array(
 		'primary' => array(
-			'url' => '%s/images/headers/cals_primary.png',
-			'thumbnail_url' => '%s/images/headers/cals_primary.png',
+			'url' => '%s/images/headers/lsc_logo.png',
+			'thumbnail_url' => '%s/images/headers/lsc_logo.png',
 			/* translators: header image description */
 			'description' => __( 'CALS Primary', 'twentyeleven' )
 		)
