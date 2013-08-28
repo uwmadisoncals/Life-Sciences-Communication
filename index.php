@@ -216,7 +216,7 @@ echo '<li><a href="#" data-cat="'.$cat->slug.'" class="selected categor">'.$cat-
 
 
 		
-   		<?php	if ( is_home() ) { query_posts( 'showposts=4' ); } ?>
+   		<?php	if ( is_home() ) { query_posts( 'showposts=3' ); } ?>
 
 			<?php if ( have_posts() ) : ?>
 
@@ -341,6 +341,136 @@ echo $category[0]->slug; ?></div>
 								
 								//cals_get_last_tweet();
 							?>
+							
+		<div class="newsItem twitter social noImage">
+    	
+    		<div class="previousa" >
+    		<div class="additionalContent" style="height: 90px;">
+    			
+    				
+    				
+    				
+
+    			
+    		</div>
+    		
+    		<div class="text">
+    			<div class="glyph"><div class="symbol"></div></div>
+    			<div class="titleheading">
+    			<h3 id="twitter_box">Welcome to all new and returning @UWMadison, @UWMadisonCALS and especially @UW_LSC students.  All move-in info here: http://www.housing.wisc.edu/residencehalls/moving …</h3>
+    			</div>
+    			<div class="excerpt">
+    			
+	    		
+			
+    			
+    			
+    			</div>
+    			<div class="dateheading">
+    			Aug 25, 2013
+    			</div>
+    			<div class="hiddendate">-20130825</div>
+    			<div class="hiddengroup">twitter</div>
+    			
+					
+					<span class="number">10</span>
+    		</div>
+    		
+    		<a href="https://twitter.com/uw_lsc" class="highlight">
+	    		<div class="loadingSpinner" style="display: none;">
+	    			<div class="progress" style="width:100%;"></div>
+	    		</div>
+    		</a>
+    	</div>
+    	
+    </div>
+    
+    
+    	<div class="newsItem twitter social noImage">
+    	
+    		<div class="previousa" >
+    		<div class="additionalContent" style="height: 90px;">
+    			
+    				
+    				
+    				
+
+    			
+    		</div>
+    		
+    		<div class="text">
+    			<div class="glyph"><div class="symbol"></div></div>
+    			<div class="titleheading">
+    			<h3 id="twitter_box">LSC professors @brossardd and @scheufele with new articles on #scicomm in @NASciences' PNAS: http://www.pnas.org/content/early/2013/08/08/1212744110.full.pdf+html … & http://www.pnas.org/content/early/2013/08/08/1213275110.full.pdf+html …</h3>
+    			</div>
+    			<div class="excerpt">
+    			
+	    		
+			
+    			
+    			
+    			</div>
+    			<div class="dateheading">
+    			Aug 13, 2013
+    			</div>
+    			<div class="hiddendate">-20130813</div>
+    			<div class="hiddengroup">twitter</div>
+    			
+					
+					<span class="number">10</span>
+    		</div>
+    		
+    		<a href="https://twitter.com/uw_lsc" class="highlight">
+	    		<div class="loadingSpinner" style="display: none;">
+	    			<div class="progress" style="width:100%;"></div>
+	    		</div>
+    		</a>
+    	</div>
+    	
+    </div>
+    
+    	<div class="newsItem twitter social noImage">
+    	
+    		<div class="previousa" >
+    		<div class="additionalContent" style="height: 90px;">
+    			
+    				
+    				
+    				
+
+    			
+    		</div>
+    		
+    		<div class="text">
+    			<div class="glyph"><div class="symbol"></div></div>
+    			<div class="titleheading">
+    			<h3 id="twitter_box">New article in @PNASNews by SCIMEP researcher @scheufele on the societal dynamics of communicating science http://bit.ly/15Tu4wg</h3>
+    			</div>
+    			<div class="excerpt">
+    			
+	    		
+			
+    			
+    			
+    			</div>
+    			<div class="dateheading">
+    			Aug 17, 2013
+    			</div>
+    			<div class="hiddendate">-20130817</div>
+    			<div class="hiddengroup">twitter</div>
+    			
+					
+					<span class="number">10</span>
+    		</div>
+    		
+    		<a href="https://twitter.com/uw_lsc" class="highlight">
+	    		<div class="loadingSpinner" style="display: none;">
+	    			<div class="progress" style="width:100%;"></div>
+	    		</div>
+    		</a>
+    	</div>
+    	
+    </div>
 							
 				<?php //twentyeleven_content_nav( 'nav-below' ); ?>
 

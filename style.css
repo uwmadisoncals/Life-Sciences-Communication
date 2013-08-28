@@ -5153,6 +5153,22 @@ display: block;
 }
 
 
+.newsItem.graduate-program .text .glyph .symbol {
+	background: url("images/graduate_glyph.png") no-repeat;
+}
+
+.newsItem.graduate-program .text h3 {
+	color: #941919;
+}
+
+.newsItem.research .text .glyph .symbol {
+	background: url("images/research_glyph.png") no-repeat;
+}
+
+.newsItem.research .text h3 {
+	color: #91621e;
+}
+
 
 .newsItem.Health .text .glyph .symbol {
 	background: url("images/health_glyph.png") no-repeat;
