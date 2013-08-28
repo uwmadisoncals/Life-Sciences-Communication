@@ -5153,11 +5153,11 @@ display: block;
 }
 
 
-.newsItem.graduate-program .text .glyph .symbol {
+.newsItem.teaching-resources .text .glyph .symbol {
 	background: url("images/graduate_glyph.png") no-repeat;
 }
 
-.newsItem.graduate-program .text h3 {
+.newsItem.teaching-resources .text h3 {
 	color: #941919;
 }
 
