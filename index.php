@@ -216,7 +216,7 @@ echo '<li><a href="#" data-cat="'.$cat->slug.'" class="selected categor">'.$cat-
 
 
 		
-   		<?php	if ( is_home() ) { query_posts( 'showposts=3' ); } ?>
+   		<?php	if ( is_home() ) { query_posts( 'showposts=3&cat=3,2' ); } ?>
 
 			<?php if ( have_posts() ) : ?>
 

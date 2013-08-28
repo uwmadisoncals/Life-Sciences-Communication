@@ -25,8 +25,26 @@
 		<li>
 			<a href="#">Publication 3</a>
 		</li>
-		</ul>
 		
+		<?php
+// The Query
+query_posts( 'showposts=5&cat=6' );
+
+// The Loop
+while ( have_posts() ) : the_post();
+    echo '<li><a href="';
+    the_permalink();
+    echo '">';
+    the_title();
+    echo '</a>';
+    echo '</li>';
+endwhile;
+
+// Reset Query
+wp_reset_query();
+?>
+		
+					</ul>
 	</div>
 </div>
 

@@ -4283,16 +4283,33 @@ color: #B70101;
 	background: #fff;
 	float: none;
 	padding: 18px;
+	padding-left: 25px;
+	padding-right: 25px;
 	text-align: left;
 	margin-bottom: 12px;
 }
 
+.newsItem.homewidget .previousa h3 {
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #91621e;
+}
+
 div.newsItem.homewidget ul, div.newsItem.homewidget ol {
-	margin-left: 18px;
+	margin-left: 0px;
+	list-style: none;
 }
 
 .newsItem.homewidget ul li a {
 	text-align: left;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ccc;
+}
+
+.newsItem.homewidget a:link, .newsItem.homewidget a:visited, .newsItem.homewidget .previousa {
+	width: auto;
 }
 
 div.newsItem.homewidget div.titleheading {
