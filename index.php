@@ -357,11 +357,11 @@ echo $category[0]->slug; ?></div>
     		<div class="text">
     			<div class="glyph"><div class="symbol"></div></div>
     			<div class="titleheading">
-    			<h3 id="twitter_box">Welcome to all new and returning @UWMadison, @UWMadisonCALS and especially @UW_LSC students.  All move-in info here: http://www.housing.wisc.edu/residencehalls/moving …</h3>
+    			<h3 id="twitter_box">Twitter</h3>
     			</div>
     			<div class="excerpt">
     			
-	    		
+	    		Welcome to all new and returning @UWMadison, @UWMadisonCALS and especially @UW_LSC students.  All move-in info here: http://www.housing.wisc.edu/residencehalls/moving …
 			
     			
     			
@@ -401,12 +401,12 @@ echo $category[0]->slug; ?></div>
     		<div class="text">
     			<div class="glyph"><div class="symbol"></div></div>
     			<div class="titleheading">
-    			<h3 id="twitter_box">LSC professors @brossardd and @scheufele with new articles on #scicomm in @NASciences' PNAS: http://www.pnas.org/content/early/2013/08/08/1212744110.full.pdf+html … & http://www.pnas.org/content/early/2013/08/08/1213275110.full.pdf+html …</h3>
+    			<h3 id="twitter_box">Twitter</h3>
     			</div>
     			<div class="excerpt">
     			
 	    		
-			
+			LSC professors @brossardd and @scheufele with new articles on #scicomm in @NASciences' PNAS: http://www.pnas.org/content/early/2013/08/08/1212744110.full.pdf+html … & http://www.pnas.org/content/early/2013/08/08/1213275110.full.pdf+html …
     			
     			
     			</div>
@@ -444,11 +444,11 @@ echo $category[0]->slug; ?></div>
     		<div class="text">
     			<div class="glyph"><div class="symbol"></div></div>
     			<div class="titleheading">
-    			<h3 id="twitter_box">New article in @PNASNews by SCIMEP researcher @scheufele on the societal dynamics of communicating science http://bit.ly/15Tu4wg</h3>
+    			<h3 id="twitter_box">Twitter</h3>
     			</div>
     			<div class="excerpt">
     			
-	    		
+	    		New article in @PNASNews by SCIMEP researcher @scheufele on the societal dynamics of communicating science http://bit.ly/15Tu4wg
 			
     			
     			
