@@ -23,12 +23,12 @@
                         <li><a href="https://learnuw.wisc.edu/" title="Learn@UW">Learn@UW</a></li>
                         <li><a href="https://courses.cals.wisc.edu/cals/" title="CALS Course Pages">Course Pages</a></li>
                         
-                        <li><a href="/students/undergraduate-programs/advising/" title="Advising">Advising</a></li>
-                        <li><a href="/students/undergraduate-programs/financial-aid/" title="Financial Aid">Financial Aid</a></li>
-                        <li><a href="/students/undergraduate-programs/ups-office/">Undergraduate Programs &amp; Services</a></li>
+                        <li><a href="http://www.cals.wisc.edu/students/undergraduate-programs/advising/" title="Advising">Advising</a></li>
+                        <li><a href="http://www.cals.wisc.edu/students/undergraduate-programs/financial-aid/" title="Financial Aid">Financial Aid</a></li>
+                        <li><a href="http://www.cals.wisc.edu/students/undergraduate-programs/ups-office/">Undergraduate Programs &amp; Services</a></li>
                         
                         <li><a href="http://www.cals.wisc.edu/gradstudies/" title="Graduate Studies">Graduate Studies</a></li>
-                        <li><a href="/students/undergraduate-programs/career-development/" title="Career Services">CALS Career Services</a></li>
+                        <li><a href="/http://www.cals.wisc.edustudents/undergraduate-programs/career-development/" title="Career Services">CALS Career Services</a></li>
                 	
                       <li><a href="https://cals-wisc-csm.symplicity.com/students/" title="BuckyNet">BuckyNet</a></li>
                     </ul>
@@ -36,8 +36,8 @@
             	<li class="quick_links_list">
                 	<ul>
                     	
-                        <li><a href="/alumni-friends/get-involved/" title="Get Involved">Get Involved</a></li>
-                        <li><a href="/alumni-friends/enhance-your-career/" title="Enhance Your Career">Enhance Your Career</a></li>
+                        <li><a href="http://www.cals.wisc.edu/alumni-friends/get-involved/" title="Get Involved">Get Involved</a></li>
+                        <li><a href="http://www.cals.wisc.edu/alumni-friends/enhance-your-career/" title="Enhance Your Career">Enhance Your Career</a></li>
                         <li><a href="http://www.supportuw.org/making-a-gift/school-college/cals/" title="Give to CALS">Give to CALS</a></li>
                         <li><a href="http://www.today.wisc.edu/" title="Campus Events">Campus Events</a></li>
                         <li><a href="http://cals.wisc.edu/grow/" title="Grow Magazine">Grow Magazine</a></li>
@@ -55,7 +55,7 @@
 				<p>You can help support Life Sciences 
 Communication by making a gift to the 
 University of Wisconsin Foundation.</p>
-				<a href="#" class="button">Make a Gift</a>
+				<a href="https://secure.supportuw.org/MultiPage/processStep1.do?seq=1441" class="button">Make a Gift</a>
 				<p class="address">Department of Life Sciences Communication | Hiram Smith Hall
 1545 Observatory Dr Madison, WI 53706
 (608) 262-1464 | lsc@lsc@wisc.edu</p>
@@ -81,9 +81,9 @@ University of Wisconsin Foundation.</p>
 		</div>
 		
 		<div class="socialRef">
-			<a href="#" class="twitter">Twitter</a>
+			<a href="https://twitter.com/uw_lsc" class="twitter">Twitter</a>
 			<a href="#" class="youtube">Youtube</a>
-			<a href="#" class="facebook">Facebook</a>
+			<a href="https://www.facebook.com/UWMadisonLSC" class="facebook">Facebook</a>
 		</div>
 			<div class="clearfix"></div>
         </div>

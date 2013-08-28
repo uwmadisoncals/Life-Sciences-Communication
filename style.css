@@ -305,13 +305,14 @@ body {
 	width: 100%;
 }
 
-.entry-content {
+div.entry-content, .singular div.entry-content {
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:2;	
 	-moz-column-gap:40px; /* Firefox */
 -webkit-column-gap:40px; /* Safari and Chrome */
 column-gap:40px;
+margin-bottom: 40px;
 }
 
 /* Simplify the pullquotes and pull styles */
@@ -1417,7 +1418,7 @@ article.format-status .entry-content {
 /* Singular content styles for Posts and Pages */
 .singular .hentry {
 	border-bottom: none;
-	padding: 4.875em 0 0;
+	padding: 2em 0 0;
 	position: relative;
 }
 .singular.page .hentry {
@@ -6271,7 +6272,7 @@ border-radius: 3px;
 .filtered ul li a:hover, .filtered ul li a:focus {
 	outline: none;
 	color: #fff;
-	background: #d58c25;
+	background: #9db44c;
 	border-bottom: none;
 	 text-shadow:0 -1px 0px rgba(0,0,0,0.4);
 }

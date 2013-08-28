@@ -203,8 +203,8 @@ endwhile;
 // Reset Query
 wp_reset_query();
 
-cals_search_feed('http://news.cals.wisc.edu/?feed=rss2&cat=-20,-21,-66,-67,0', 40, 1, -1); 
-cals_search_feed('http://ecals.cals.wisc.edu/feed/', 40, 1, -1); 
+//cals_search_feed('http://news.cals.wisc.edu/?feed=rss2&cat=-20,-21,-66,-67,0', 40, 1, -1); 
+//cals_search_feed('http://ecals.cals.wisc.edu/feed/', 40, 1, -1); 
 ?>
 
 						<!-- Hard code any additional search terms here -->
