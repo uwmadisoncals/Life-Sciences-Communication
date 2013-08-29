@@ -123,7 +123,7 @@ function twentyeleven_setup() {
 		'flex-height' => true,
 		// Random image rotation by default.
 		'random-default' => true,
-		'header-text' => false,
+		'header-text' => true,
 		// Callback for styling the header.
 		'wp-head-callback' => 'twentyeleven_header_style',
 		// Callback for styling the header preview in the admin.
