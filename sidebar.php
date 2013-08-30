@@ -41,11 +41,11 @@ if ( 'content' != $current_layout ) :
     // This is not the homepage
  ?>
 	
-	<?php /*get_template_part('nav_menu', 'sidebar'); */ ?>
+	<?php  get_template_part('nav_menu', 'sidebar');  ?>
 	
 	
 	
-	<!--<div id="secondary" class="widget-area" role="complementary">
+	<div id="content_widget_sidebar" class="widget-area whiteContainer" role="complementary">
 			
 			
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>

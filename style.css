@@ -7431,3 +7431,12 @@ border-radius: 3px;
 	font-weight: bold;
 }
  
+ /*
+ *  Addtional styling for content page sidebar
+ * */
+
+ #content_widget_sidebar {
+ 	float:right;
+ 	marging:0 4% 0 4%;
+ 	width:18%;
+ }
