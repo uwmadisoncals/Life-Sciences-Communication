@@ -2126,6 +2126,20 @@ section.recent-posts .other-recent-posts li:after {
 .widget-area {
 	font-size: 12px;
 }
+
+.widget-area ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.widget-area ul li a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
 .widget {
 	clear: both;
 	margin: 0 0 1.3em;
@@ -2141,6 +2155,7 @@ section.recent-posts .other-recent-posts li:after {
 .widget ul {
 	font-size: 15px;
 	margin: 0;
+
 }
 
 .error404 .widget ul {
@@ -4287,6 +4302,17 @@ color: #B70101;
 	
 }
 
+.newsItem.faculty a:link, .newsItem.faculty a:visited, .newsItem.faculty .previousa {
+	display: block;
+	width: 222px;
+	/*height: 225px;*/
+	text-align: left;
+	position: relative;
+	
+	border-bottom: none;
+	
+}
+
 .newsItem.homewidget {
 	background: #fff;
 	float: none;
@@ -4312,7 +4338,7 @@ color: #B70101;
 
 }
 
-.newsItem.homewidget .previousa h3 {
+.newsItem.homewidget .previousa h3, .widget-area h3 {
 	font-family: "Open Sans";
 	text-transform: uppercase;
 	font-size: 12px;
@@ -4338,6 +4364,13 @@ div.newsItem.homewidget ul, div.newsItem.homewidget ol {
 div.newsItem.homewidget div.titleheading {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+div.newsItem div.workingTitle {
+	font-family: "Open Sans";
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
 }
 
 .newsItem.homewidget .previousa {
@@ -4672,6 +4705,11 @@ display: block;
 	padding-left: 18px;
 	padding-right: 18px;
 	
+}
+
+.newsItem.faculty a .titleheading h3, .newsItem.faculty .previousa .titleheading h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 /*.newsItem.noImage a .titleheading, .newsItem.noImage .previousa .titleheading {
@@ -5074,6 +5112,10 @@ display: block;
 
 .newsItem .text h3 {
 	color: #ae7619;
+}
+
+.newsItem.faculty .text h3 {
+	color: #9cb54e;
 }
 
 .newsItem .previousa {
@@ -7439,5 +7481,14 @@ border-radius: 3px;
  	float:right;
  	margin:0 0 0 4%;
  	width:23%;
- 	padding:0%;
+ 	padding: 2%;
+ }
+ 
+ @-moz-document url-prefix() {
+ 	 #content_widget_sidebar {
+ 	float:right;
+ 	margin:0 0 0 4%;
+ 	width:19%;
+ 	padding: 2%;
+ 	}
  }

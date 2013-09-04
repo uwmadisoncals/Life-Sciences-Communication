@@ -18,7 +18,7 @@ get_header(); ?>
   
   <div class="collegeFeature2">
   <?php if (function_exists( 'muneeb_ssp_slider')) {muneeb_ssp_slider( 5 );} ?>
-  <?php if (function_exists( 'muneeb_ssp_slider')) {muneeb_ssp_slider(83 );} ?>
+  
    </div>
   
  <!-- <div class="collegeFeature">
