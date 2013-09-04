@@ -57,25 +57,27 @@ get_header(); ?>
     			<div class="titleheading">
     			<h3><?php the_title(); ?></h3>
     			<div class="workingTitle"><?php the_field('professional_title'); ?></div>
-    			</div>
-    			<div class="excerpt">
     			
-    				<div class="officeLocation">
-    					<?php the_field('office_location'); ?>
+    			
+    				<div class="contactInfo">
+    			
+	    				<div class="officeLocation">
+	    					<?php the_field('office_location'); ?>
+	    				</div>
+	    				
+	    				<div class="officePhone">
+	    					<?php the_field('phone_number'); ?>
+	    				</div>
+	    				
+	    				<div class="officeEmail">
+	    					<?php the_field('office_email'); ?>
+	    				</div>
     				</div>
-    				
-    				<div class="officePhone">
-    					<?php the_field('phone_number'); ?>
-    				</div>
-    				
-    				<div class="officeEmail">
-    					<?php the_field('office_email'); ?>
-    				</div>
-	    		
+	    		</div>
 			<?php //the_content_rss('', FALSE, '', 180); ?>
     			
     			
-    			</div>
+    			
     			<div class="dateheading">
     			<?php //the_date(); ?>
     			</div>

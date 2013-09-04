@@ -4303,14 +4303,39 @@ color: #B70101;
 }
 
 .newsItem.faculty a:link, .newsItem.faculty a:visited, .newsItem.faculty .previousa {
-	display: block;
-	width: 222px;
-	/*height: 225px;*/
+	
 	text-align: left;
-	position: relative;
 	
-	border-bottom: none;
 	
+}
+
+.newsItem .contactInfo {
+	margin-top: 20px;
+}
+
+.newsItem .contactInfo div {
+	padding-left: 26px;
+	margin-bottom: 6px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+}
+
+.newsItem .contactInfo div.officeLocation {
+	background: url("images/officelocation.png") no-repeat;
+	
+}
+
+.newsItem .contactInfo div.officePhone {
+	background: url("images/officephone.png") no-repeat;
+	background-position: 0px 2px;
+	
+}
+
+.newsItem .contactInfo div.officeEmail {
+	background: url("images/officeemail.png") no-repeat;
+	background-position: 0px 4px;
 }
 
 .newsItem.homewidget {
