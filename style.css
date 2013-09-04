@@ -4309,11 +4309,11 @@ color: #B70101;
 	
 }
 
-.newsItem .contactInfo {
+.contactInfo {
 	margin-top: 20px;
 }
 
-.newsItem .contactInfo div {
+.contactInfo div {
 	padding-left: 26px;
 	margin-bottom: 6px;
 	font-family: "Open Sans";
@@ -4322,20 +4322,39 @@ color: #B70101;
 	font-size: 14px;
 }
 
-.newsItem .contactInfo div.officeLocation {
+.contactInfo div.officeLocation {
 	background: url("images/officelocation.png") no-repeat;
 	
 }
 
-.newsItem .contactInfo div.officePhone {
+.contactInfo div.officePhone {
 	background: url("images/officephone.png") no-repeat;
 	background-position: 0px 2px;
 	
 }
 
-.newsItem .contactInfo div.officeEmail {
+.contactInfo div.officeEmail {
 	background: url("images/officeemail.png") no-repeat;
 	background-position: 0px 4px;
+}
+
+.facultyImage {
+	float: right;
+	width: 290px;
+	
+}
+
+.facultyMainInfo {
+	float: left;
+	width: 300px;
+}
+
+.facultyMainInfo h1 {
+	color: #91621e;
+}
+
+.facultyImage img {
+	width: 290px;
 }
 
 .newsItem.homewidget {
