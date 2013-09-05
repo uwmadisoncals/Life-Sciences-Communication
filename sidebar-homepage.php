@@ -14,28 +14,18 @@
 			<h3>Publications</h3>
 		</div>
 		<ul>
-		<li>
-			<a href="#">Publication 1</a>
-		</li>
 		
-		<li>
-			<a href="#">Publication 2</a>
-		</li>
-		
-		<li>
-			<a href="#">Publication 3</a>
-		</li>
 		
 		<?php
 // The Query
-query_posts( 'showposts=5&cat=6' );
+query_posts( array( 'post_type' => 'publications','posts_per_page' => 5 ) );
 
 // The Loop
 while ( have_posts() ) : the_post();
     echo '<li><a href="';
     the_permalink();
     echo '">';
-    the_title();
+    the_content();
     echo '</a>';
     echo '</li>';
 endwhile;
