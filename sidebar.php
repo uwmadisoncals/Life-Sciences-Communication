@@ -13,7 +13,7 @@ if ( 'content' != $current_layout ) :
 ?>
 		<div id="secondary" class="widget-area" role="complementary">
 		
-			<?php if ( !is_home() ) { //get_template_part('nav_menu', 'sidebar'); } ?>
+			<?php // if ( !is_home() ) { get_template_part('nav_menu', 'sidebar'); } ?>
 		
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
