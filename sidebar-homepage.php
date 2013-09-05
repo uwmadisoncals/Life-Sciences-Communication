@@ -22,11 +22,10 @@ query_posts( array( 'post_type' => 'publications','posts_per_page' => 5 ) );
 
 // The Loop
 while ( have_posts() ) : the_post();
-    echo '<li><a href="';
-    the_permalink();
-    echo '">';
-    the_content();
-    echo '</a>';
+    echo '<li>';
+  
+       the_content();
+  
     echo '</li>';
 endwhile;
 
