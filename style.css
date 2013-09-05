@@ -3471,9 +3471,11 @@ h1, h2, h3, p, ul, ol, pre, dl {
   margin-bottom: 1.0em;
 }
 
-.whiteContainer h1, .whiteContainer h2, .whiteContainer h3 {
+.whiteContainer h1, .whiteContainer h2 {
   margin-bottom: 0em;
 }
+
+
 
 h1, h2, #super-list, .element, .tagline, #index-list, 
 .super-list .link {
@@ -4387,6 +4389,41 @@ color: #B70101;
 	text-transform: uppercase;
 	font-size: 12px;
 	color: #91621e;
+	font-weight: bold;
+}
+
+.widget-area .widget_twitter h3 {
+	color: #00acee;
+}
+
+.widget_twitter {
+	margin-bottom: 0px;
+}
+
+.widget_twitter ul li a {
+	display: inline;
+	border-bottom: none;
+	padding: 0px;
+}
+
+.widget_twitter ul li {
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+.widget_twitter ul li:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.widget_twitter ul li span.intent-meta {
+	display: none;
+}
+
+.widget_twitter ul li span.entry-meta {
+	margin-top: 8px;
 }
 
 div.newsItem.homewidget ul, div.newsItem.homewidget ol {
