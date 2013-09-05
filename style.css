@@ -3738,6 +3738,10 @@ h1.logo {
   margin-bottom: 40px;
 }
 
+.page-template-page-publications-php #content, .page-template-page-nosidebar-php #content {
+	width: 940px;
+}
+
 @-moz-document url-prefix() {
 	.single #content, .page #content, .search-results #content {
 	position: relative;
