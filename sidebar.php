@@ -41,7 +41,7 @@ if ( 'content' != $current_layout ) :
     // This is not the homepage
  ?>
 	
-	<?php  get_template_part('nav_menu', 'sidebar');  ?>
+	
 	
 	
 	
