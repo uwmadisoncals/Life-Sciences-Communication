@@ -7578,6 +7578,7 @@ border-radius: 3px;
  	width:224px;
  	padding: 20px;
  	margin-bottom: 20px;
+ 	padding-bottom: 40px;
  }
  
  @-moz-document url-prefix() {
@@ -7586,7 +7587,22 @@ border-radius: 3px;
  	margin:0 0 0 20px;
  	width:182px;
  	padding: 20px;
+ 	padding-bottom: 40px;
  	}
+ }
+
+ .moreTweetsButton {
+ 	position: absolute;
+ 	bottom: 0px;
+ 	left: 0px;
+ 	right: 0px;
+ 	z-index:4;
+ 	background: green;
+ 	color: #fff;
+ 	font-weight: bold;
+ 	padding: 8px;
+ 	padding-left: 14px;
+ 	padding-right: 14px;
  }
 
  /* 
