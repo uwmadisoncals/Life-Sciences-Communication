@@ -45,7 +45,7 @@ if ( 'content' != $current_layout ) :
 	
 	
 	
-	<div id="content_widget_sidebar" class="widget-area whiteContainer" role="complementary">
+	<div id="content_widget_sidebar" class="widget-area" role="complementary">
 			
 			
 						

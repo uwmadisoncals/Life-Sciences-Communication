@@ -3703,7 +3703,7 @@ h1.logo {
 	}
 }
 
-.whiteContainer, #secondary aside {
+.whiteContainer, #secondary aside, #content_widget_sidebar aside {
 
   position: relative;
   background: #fff;
@@ -7575,8 +7575,8 @@ border-radius: 3px;
  #content_widget_sidebar {
  	float:right;
  	margin:0 0 0 20px;
- 	width:224px;
- 	padding: 20px;
+ 	width:264px;
+ 	
  	margin-bottom: 20px;
  	padding-bottom: 40px;
  }
@@ -7585,8 +7585,8 @@ border-radius: 3px;
  	 #content_widget_sidebar {
  	float:right;
  	margin:0 0 0 20px;
- 	width:182px;
- 	padding: 20px;
+ 	width:222px;
+ 	
  	padding-bottom: 40px;
  	}
  }
