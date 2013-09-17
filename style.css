@@ -4436,12 +4436,34 @@ cr
 	padding-bottom: 0px;
 	}
 
-.crp_related ul li a :last-child{
+a.crp_style  {
+
 	border-bottom: none;
 	margin-bottom: 0px;
 	margin-top:10px;
 	padding-bottom: 0px;
+	position:absolute;
+	bottom:0px;
+
+	position: absolute;
+ 	left: 0px;
+ 	right: 0px;
+ 	z-index:4;
+ 	background: #9CB54E;
+ 	color: #fff;
+ 	font-weight: bold;
+ 	padding: 8px;
+ 	padding-left: 14px;
+ 	padding-right: 14px;
+ 	text-align:center;
+ 	border: 1px solid rgb(183, 183, 183);
 	}
+
+	#crp_related > ul:nth-child(1) > li:nth-child(2)
+	{
+		margin-bottom:35px;
+	}
+
 div.newsItem.homewidget ul, div.newsItem.homewidget ol {
 	margin-left: 0px;
 	list-style: none;
@@ -7582,7 +7604,7 @@ border-radius: 3px;
  #content_widget_sidebar {
  	float:right;
  	margin:0 0 0 20px;
- 	width:264px;
+ 	width:224px;
  	
  	margin-bottom: 20px;
  	padding-bottom: 40px;
