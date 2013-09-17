@@ -4421,11 +4421,7 @@ color: #B70101;
 	border-bottom: 1px solid #ccc;
 }
 
-.widget_twitter ul li:last-child {
-	border-bottom: none;
-	margin-bottom: 15px;
-	padding-bottom: 0px;
-}
+cr
 
 .widget_twitter ul li span.intent-meta {
 	display: none;
@@ -4434,7 +4430,18 @@ color: #B70101;
 .widget_twitter ul li span.entry-meta {
 	margin-top: 8px;
 }
+.widget_twitter ul li:last-child{
+	border-bottom: none;
+	margin-bottom: 15px;
+	padding-bottom: 0px;
+	}
 
+.crp_related ul li a :last-child{
+	border-bottom: none;
+	margin-bottom: 0px;
+	margin-top:10px;
+	padding-bottom: 0px;
+	}
 div.newsItem.homewidget ul, div.newsItem.homewidget ol {
 	margin-left: 0px;
 	list-style: none;
