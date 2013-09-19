@@ -7,6 +7,15 @@
  * @subpackage CALSv2
  * @since CALS 2.0
  */
+
+/*  THIS IS TO ENABLE USE OF firePHP */
+
+require_once("C:wamp\www\FirePHPCore\FirePHP.class.php");
+ob_start();
+	$firephp=FirePHP::getInstance(true);
+	$var=array('i'=>10,'j'=>20);
+	$firephp->log($var,'root');
+
 ?><!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
@@ -103,6 +112,7 @@
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-rotate.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/browserdetect.js"></script>
    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/mainactions.js"></script>
+   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/twitterfetcher.js"></script>
 
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
