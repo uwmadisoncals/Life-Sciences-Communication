@@ -1,22 +1,4 @@
-<?php
-/**
- * The Header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="main">
- * @package WordPress
- * @subpackage CALSv2
- * @since CALS 2.0
- */
-
-/*  THIS IS TO ENABLE USE OF firePHP */
-
-require_once("C:wamp\www\FirePHPCore\FirePHP.class.php");
-ob_start();
-	$firephp=FirePHP::getInstance(true);
-	$var=array('i'=>10,'j'=>20);
-	$firephp->log($var,'root');
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
 <![endif]-->
