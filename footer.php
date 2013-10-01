@@ -53,7 +53,6 @@ University of Wisconsin Foundation.</p>
 					get_sidebar( 'footer' );
 			?>
 		</div>
-		<div id="twitter_box"></div>
 		<div class="socialRef">
 			<a href="https://twitter.com/uw_lsc" class="twitter">Twitter</a>
 			<a href="#" class="youtube">Youtube</a>
