@@ -315,6 +315,22 @@ column-gap:40px;
 margin-bottom: 40px;
 }
 
+.singlecol div.entry-content, .singular div.entry-content {
+	-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+column-count:1;	
+	-moz-column-gap:40px; /* Firefox */
+-webkit-column-gap:40px; /* Safari and Chrome */
+column-gap:40px;
+margin-bottom: 40px;
+
+
+}
+
+div#content.singlecol {
+	width: 940px;
+}
+
 /* Simplify the pullquotes and pull styles */
 .one-column.singular blockquote.pull {
 	margin: 0 0 1.625em;
