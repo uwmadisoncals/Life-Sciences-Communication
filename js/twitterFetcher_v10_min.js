@@ -16,16 +16,18 @@ f[a].setAttribute("aria-label",b);if(e[a].innerText)if(v)f[a].innerText=b;else{v
 h[a]+'" class="twitter_fav_icon">Favorite</a></p>');c.push(b);a++}if(null==w){e=c.length;g=0;f=document.getElementById(y);for(h="<ul>";g<e;)h+="<li>"+c[g]+"</li>",g++;f.innerHTML=h+"</ul>"}else w(c);t=!1;0<k.length&&(twitterFetcher.fetch(k[0].id,k[0].domId,k[0].maxTweets,k[0].enableLinks,k[0].showUser,k[0].showTime,k[0].dateFunction,k[0].showRt,k[0].customCallback,k[0].showInteraction),k.splice(0,1))}}}();
 
 
-twitterFetcher.fetch('346657966314909696', '', 8, true, false, false, '', false, firstRecentTweet, false );
-twitterFetcher.fetch('346657966314909696', '', 8, true, false, false, '', false, secondRecentTweet, false );
-twitterFetcher.fetch('346657966314909696', '', 8, true, false, false, '', false, thirdRecentTweet, false );
+twitterFetcher.fetch('346657966314909696', '', 1, true, false, false, '', false, firstRecentTweet, false );
+twitterFetcher.fetch('346657966314909696', '', 1, true, false, false, '', false, secondRecentTweet, false );
+twitterFetcher.fetch('346657966314909696', '', 1, true, false, false, '', false, thirdRecentTweet, false );
 
 function firstRecentTweet(tweets){
     var x = tweets.length;
     var n = 0;
     var element = document.getElementById('firstRecentTweet');
     var html =tweets[0];
-	element.innerHTML = html; 
+        if (element){
+	       element.innerHTML = html; 
+            }
 } 
 
 function secondRecentTweet(tweets){
@@ -33,8 +35,10 @@ function secondRecentTweet(tweets){
     var n = 0;
     var element = document.getElementById('secondRecentTweet');
     var html =tweets[1];
-	element.innerHTML = html; 
-    
+        
+        if (element){
+        element.innerHTML = html; 
+        } 
 }
 
 function thirdRecentTweet(tweets){
@@ -42,6 +46,9 @@ function thirdRecentTweet(tweets){
     var n = 0;
     var element = document.getElementById('thirdRecentTweet');
     var html =tweets[2];
-	element.innerHTML = html; 
+	   
+       if (element){
+        element.innerHTML = html; 
+        }
     
 }
