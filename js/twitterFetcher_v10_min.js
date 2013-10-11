@@ -20,16 +20,13 @@ twitterFetcher.fetch('346657966314909696', '', 8, true, false, false, '', false,
 twitterFetcher.fetch('346657966314909696', '', 8, true, false, false, '', false, secondRecentTweet, false );
 twitterFetcher.fetch('346657966314909696', '', 8, true, false, false, '', false, thirdRecentTweet, false );
 
-
-
 function firstRecentTweet(tweets){
     var x = tweets.length;
     var n = 0;
     var element = document.getElementById('firstRecentTweet');
     var html =tweets[0];
 	element.innerHTML = html; 
-    
-}
+} 
 
 function secondRecentTweet(tweets){
     var x = tweets.length;

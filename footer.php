@@ -36,7 +36,7 @@ University of Wisconsin Foundation.</p>
         </div>
         
         <div class="relative">
-       
+       <!-- <div id="firstRecentTweet"></div>            Uncomment to test TWITTERFETCHER -->
         <div class="copyright">
         	<img src="<?php echo get_template_directory_uri(); ?>/images/footercrest.png" alt="University of Wisconsin Madison" />
         	<div>&copy; Copyright 2013 The Board of Regents of the University of Wisconsin System</div>
