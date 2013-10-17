@@ -216,7 +216,7 @@ echo '<li><a href="#" data-cat="'.$cat->slug.'" class="selected categor">'.$cat-
 
 
 		
-   		<?php	if ( is_home() ) { query_posts( 'showposts=3&cat=3,2' ); } ?>
+   		<?php	if ( is_home() ) { query_posts( 'showposts=3&cat=3,2&offset=1' ); } ?>
 
 			<?php if ( have_posts() ) : ?>
 
@@ -273,7 +273,7 @@ echo $category[0]->slug; ?>">
     			<div class="dateheading">
     			<?php the_date(); ?>
     			</div>
-    			<div class="hiddendate"><?php echo "-"; the_time('Ymd') ?></div>
+    			<div class="hiddendate">1<?php //echo "-"; the_time('Ymd') ?></div>
     			<div class="hiddengroup"><?php $category = get_the_category(); 
 echo $category[0]->slug; ?></div>
     			
@@ -292,6 +292,8 @@ echo $category[0]->slug; ?></div>
 
 				<?php endwhile; ?>
 				
+
+
 				
 				
 				<!--
@@ -359,9 +361,7 @@ echo $category[0]->slug; ?></div>
     			<div class="titleheading">
     			<h3 id="twitter_box">Twitter</h3>
     			</div>
-    			<div class="excerpt">
-    			
-	    		Welcome to all new and returning @UWMadison, @UWMadisonCALS and especially @UW_LSC students.  All move-in info here: http://www.housing.wisc.edu/residencehalls/moving …
+    			<div class="excerpt" id="firstRecentTweet">
 			
     			
     			
@@ -403,10 +403,7 @@ echo $category[0]->slug; ?></div>
     			<div class="titleheading">
     			<h3 id="twitter_box">Twitter</h3>
     			</div>
-    			<div class="excerpt">
-    			
-	    		
-			LSC professors @brossardd and @scheufele with new articles on #scicomm in @NASciences' PNAS: http://www.pnas.org/content/early/2013/08/08/1212744110.full.pdf+html … & http://www.pnas.org/content/early/2013/08/08/1213275110.full.pdf+html …
+    			<div class="excerpt" id="secondRecentTweet">
     			
     			
     			</div>
@@ -446,9 +443,8 @@ echo $category[0]->slug; ?></div>
     			<div class="titleheading">
     			<h3 id="twitter_box">Twitter</h3>
     			</div>
-    			<div class="excerpt">
+    			<div class="excerpt" id="thirdRecentTweet">
     			
-	    		New article in @PNASNews by SCIMEP researcher @scheufele on the societal dynamics of communicating science http://bit.ly/15Tu4wg
 			
     			
     			

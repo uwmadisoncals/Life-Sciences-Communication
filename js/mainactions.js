@@ -1,5 +1,6 @@
 $(function(){
 
+
 $('.newsItem .additionalContent').each(function(index) {
 		//console.log($(this).next().html());
 		var i = $(this).children().hasClass("noImageSpacer2");
@@ -14,7 +15,6 @@ $('.newsItem .additionalContent').each(function(index) {
 			
 			
 		});
-
 var countFeatures = 0;
 	   
 	   //Check to see if the homepage feature exists
@@ -342,6 +342,7 @@ var countFeatures = 0;
 		}
 		
 		
+	
 		
 		$('.newsItem').each(function(index) {
 		var w = $(this);
