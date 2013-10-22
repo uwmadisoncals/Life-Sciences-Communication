@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<div id="primary">
 		
-			
+			<div id="container" class="wide">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -94,13 +94,14 @@ echo $category[0]->slug; ?></div>
 	    			<div class="progress" style="width:100%;"></div>
 	    		</div>
     		</a>
-								
-								
-								
-								
+							</div>
+		
 								
 							</div>
-						</div>
+								
+								
+							
+						
 					<?php endwhile; ?>
 
 				<?php endwhile; // end of the loop. ?>
@@ -109,8 +110,41 @@ echo $category[0]->slug; ?></div>
 			<?php //get_sidebar(); ?>
 			<div class="clear"></div>
 		</div><!-- #primary -->
-
+</div>
 	</div>
 <?php get_footer(); ?>
-
+<script>
+	setTimeout(function() {
+	$("#container").isotope({
+        masonry: {
+        columnWidth: 237
+        
+          //columnWidth: 1
+        },
+        sortBy: 'alphabetical',
+        getSortData: {
+          number: function( $elem ) {
+            var number = $elem.hasClass('newsItem') ? 
+              $elem.find('.number').text() :
+              $elem.attr('data-number');
+            return parseInt( number, 10 );
+          },
+          alphabetical: function( $elem ) {
+            var name = $elem.find('h3'),
+            itemText = name.length ? name : $elem;
+            return itemText.text();
+          },
+          chronological: function( $elem ) {
+            var number = $elem.find('.hiddendate').text();
+            return parseInt( number );
+          },
+          grouped: function( $elem ) {
+            var groupname = $elem.find('.hiddengroup').text();
+            return groupname;
+          }
+        }
+      });
+      
+      },1000);
+</script>
 </div>

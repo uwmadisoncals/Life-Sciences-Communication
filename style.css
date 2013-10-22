@@ -3697,13 +3697,17 @@ h1.logo {
 	text-decoration: underline;
 	}
 
-#container {
+#container, #container2 {
   margin-left: -10px;
   margin-right: -10px;
   padding: 5px;
   margin-bottom: 20px;
   width: 715px;
   float: left;
+}
+
+#container.wide {
+	width: 960px;
 }
 
 .homeSidebar {
@@ -4317,7 +4321,7 @@ color: #B70101;
 }*/
 
 
-.newsItem a:link, .newsItem a:visited, .newsItem .previousa {
+.newsItem a:link, .newsItem a:visited, .newsItem .previousa, .newsItemAlt .previousa {
 	display: block;
 	width: 222px;
 	/*height: 225px;*/
@@ -4326,6 +4330,28 @@ color: #B70101;
 	
 	border-bottom: none;
 	
+}
+
+.home .newsItem.storyFeature .previousa {
+	height: 530px !important;
+}
+
+
+.home .newsItem.short .previousa {
+	height: 360px !important;
+}
+
+
+.home .newsItem.twitter .previousa {
+	height: 360px !important;
+}
+
+.home .newsItem.twitter.long .previousa {
+	height: 530px !important;
+}
+
+.home .newsItem.fifth {
+	margin-top: -165px;
 }
 
 .newsItem.faculty a:link, .newsItem.faculty a:visited, .newsItem.faculty .previousa {
@@ -4384,7 +4410,7 @@ color: #B70101;
 	float: right;
 }
 
-.newsItem.homewidget {
+.newsItem.homewidget, .newsItemAlt.homewidget {
 	background: #fff;
 	float: none;
 	padding: 18px;
@@ -4396,7 +4422,7 @@ color: #B70101;
 
 @-moz-document url-prefix() {
 
-	.newsItem.homewidget {
+	.newsItem.homewidget, .newsItemAlt.homewidget {
 	background: #fff;
 	float: none;
 	padding: 18px;
@@ -4501,7 +4527,7 @@ div.newsItem.homewidget div.titleheading {
 	padding-right: 0px;
 }
 
-div.newsItem div.workingTitle {
+div.newsItem div.workingTitle, div.newsItemAlt div.workingTitle {
 	font-family: "Open Sans";
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
@@ -4522,25 +4548,25 @@ div.newsItem div.workingTitle {
 }
 
 
-.newsItem a .text .excerpt, .newsItem .previousa .text .excerpt {
+.newsItem a .text .excerpt, .newsItem .previousa .text .excerpt, .newsItemAlt .previousa .text .excerpt {
 	display: block;
 	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
 	}
 
-.newsItem a .text .excerpt p, .newsItem .previousa .text .excerpt p {
+.newsItem a .text .excerpt p, .newsItem .previousa .text .excerpt p, .newsItemAlt .previousa .text .excerpt p {
 	position: relative;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	
 }
 
-.Explorer .newsItem .previousa .text .excerpt {
+.Explorer .newsItem .previousa .text .excerpt, .Explorer .newsItemAlt .previousa .text .excerpt {
 	border-bottom: 1px dashed #ccc;
 }
 
-.Explorer .newsItem.twitter .previousa .text .excerpt {
+.Explorer .newsItem.twitter .previousa .text .excerpt, .Explorer .newsItemAlt.twitter .previousa .text .excerpt {
 	border-bottom: none;
 }
 
@@ -4551,14 +4577,18 @@ div.newsItem div.workingTitle {
 	
 }
 
-.Explorer .newsItem .previousa .text .excerpt, .Explorer .newsItem .previousa .text .excerpt {
+.Explorer .newsItem .previousa .text .excerpt, .Explorer .newsItem .previousa .text .excerpt, .Explorer .newsItemAlt .previousa .text .excerpt {
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-.Safari .newsItem a .text, .Chrome .newsItem a .text, .Firefox .newsItem a .text, .Chrome .newsItem a .text, .Safari .newsItem .previousa .text, .Chrome .newsItem .previousa .text, .Firefox .newsItem .previousa .text, .Chrome .newsItem .previousa .text, .newsItem .previousa .text {
+.Safari .newsItem a .text, .Chrome .newsItem a .text, .Firefox .newsItem a .text, .Chrome .newsItem a .text, .Safari .newsItem .previousa .text, .Chrome .newsItem .previousa .text, .Firefox .newsItem .previousa .text, .Chrome .newsItem .previousa .text, .newsItem .previousa .text, .Safari .newsItemAlt .previousa .text, .Chrome .newsItemAlt .previousa .text, .Firefox .newsItemAlt .previousa .text {
 	margin-left: -24px;
 	margin-right: -24px;	
+}
+
+.storyFeature .previousa .text, .twitter .previousa .text {
+	height: 300px;
 }
 
 /*.Safari .newsItem.noImage a .text, .Chrome .newsItem.noImage a .text, .Firefox .newsItem.noImage a .text, .Chrome .newsItem.noImage a .text, .Safari .newsItem.noImage .previousa .text, .Chrome .newsItem.noImage .previousa .text, .Firefox .newsItem.noImage .previousa .text, .Chrome .newsItem.noImage .previousa .text, .newsItem.noImage .previousa .text {
@@ -4733,7 +4763,7 @@ display: block;
 
 
 
-.newsItem a .highlight, .newsItem .previousa .highlight {
+.newsItem a .highlight, .newsItem .previousa .highlight, .newsItemAlt .previousa .highlight {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -4747,23 +4777,23 @@ display: block;
 	
 }
 
-.Explorer .newsItem .previousa .highlight {
+.Explorer .newsItem .previousa .highlight, .Explorer .newsItemAlt .previousa .highlight {
 	background: rgba(0,0,0,0.0);
 } 
 
-.newsItem .previousa .highlight.loading {
+.newsItem .previousa .highlight.loading, .newsItemAlt .previousa .highlight.loading {
 	background: rgba(0,0,0,0.6);
 	-webkit-transition: background 0.4s;
 }
 
-.newsItem .previousa div.highlight {
+.newsItem .previousa div.highlight, .newsItemAlt .previousa div.highlight  {
 	z-index:1;
 	display: none;
 }
 
 
 
-.Firefox .newsItem a .highlight, .Firefox .newsItem .previousa .highlight {
+.Firefox .newsItem a .highlight, .Firefox .newsItem .previousa .highlight, .Firefox .newsItemAlt .previousa .highlight {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -4781,14 +4811,14 @@ display: block;
 
 
 
-.newsItem a:hover .highlight, .newsItem .previousa .highlight:hover, .newsItem .previousa .highlight.focusHighlight {
+.newsItem a:hover .highlight, .newsItem .previousa .highlight:hover, .newsItem .previousa .highlight.focusHighlight, .newsItemAlt .previousa .highlight:hover {
 	
 	
 	outline: none;
 	border: 1px solid #008aff;
 }
 
-.newsItem a:active .highlight, .newsItem .previousa .highlight:active {
+.newsItem a:active .highlight, .newsItem .previousa .highlight:active, .newsItemAlt .previousa .highlight:active {
 	
 	background: transparent;
 }
@@ -4797,7 +4827,7 @@ display: block;
 
 
 
-.newsItem a .text, .newsItem .previousa .text {
+.newsItem a .text, .newsItem .previousa .text, .newsItemAlt .previousa .text {
 	-moz-box-shadow:    0px 0px 7px 0px #A5A5A5;
   -webkit-box-shadow: 0px 0px 7px 0px #A5A5A5;
   box-shadow:         0px 0px 7px 0px #A5A5A5;
@@ -4807,7 +4837,7 @@ display: block;
 	-o-transition: padding-bottom .3s;*/
 }
 
-.newsItem.noImage a .text, .newsItem.noImage .previousa .text {
+.newsItem.noImage a .text, .newsItem.noImage .previousa .text, .newsItemAlt.noImage .previousa .text {
 	-moz-box-shadow:    0px 0px 7px 0px #a5a5a5;
   -webkit-box-shadow: 0px 0px 7px 0px #a5a5a5;
   box-shadow:         0px 0px 7px 0px #a5a5a5;
@@ -4835,7 +4865,7 @@ display: block;
 	
 }
 
-.newsItem a .titleheading, .newsItem .previousa .titleheading {
+.newsItem a .titleheading, .newsItem .previousa .titleheading, .newsItemAlt .previousa .titleheading {
 	
 	padding-left: 18px;
 	padding-right: 18px;
@@ -4852,7 +4882,7 @@ display: block;
 	
 }*/
 
-.newsItem a .dateheading, .newsItem .previousa .dateheading {
+.newsItem a .dateheading, .newsItem .previousa .dateheading, .newsItemAlt .previousa .dateheading {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-family: 'Open Sans', sans-serif;
@@ -4862,11 +4892,11 @@ display: block;
 	font-size: 11px;
 }
 
-.newsItem .hiddendate, .newsItem .hiddengroup {
+.newsItem .hiddendate, .newsItem .hiddengroup, .newsItemAlt .hiddendate, .newsItemAlt .hiddengroup {
 	display: none;
 }
 
-.newsItem a:link h3, .newsItem a:visited h3, .newsItem .previousa h3  {
+.newsItem a:link h3, .newsItem a:visited h3, .newsItem .previousa h3, .newsItemAlt a:link h3, .newsItemAlt a:visited h3, .newsItemAlt .previousa h3  {
 	font-size: 16px;
 	color: #393939;
 	font-family: 'Merriweather', Georgia, serif;
@@ -4887,7 +4917,7 @@ display: block;
 
 
 
-.newsItem a:link p, .newsItem a:visited p, .newsItem .previousa p {
+.newsItem a:link p, .newsItem a:visited p, .newsItem .previousa p, .newsItemAlt a:link p, .newsItemAlt a:visited p, .newsItemAlt .previousa p {
 	font-size: 14px;
 	color: #545454;
 	font-weight: 500;
@@ -4895,7 +4925,7 @@ display: block;
 }
 
 
-.newsItem a .text p, .newsItem .previousa .text p {
+.newsItem a .text p, .newsItem .previousa .text p, .newsItemAlt a .text p, .newsItemAlt .previousa .text p {
 	margin-bottom: 0px;
 }
 
@@ -5900,7 +5930,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a0002', end
 
 /**** Horizontal ****/
 
-.horizontal #container {
+.horizontal #container, .horizontal #container2  {
   height: 80%;
 }
 
@@ -8187,7 +8217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container {
+	#container, #container2 {
 		
 		
 		padding: 0px;
@@ -8757,7 +8787,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container {
+	#container, #container2 {
 		
 		
 		padding: 0px;
@@ -9340,7 +9370,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container {
+	#container, #container2 {
 		
 		
 		padding: 0px;
@@ -9945,9 +9975,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container {
-		
-		
+	#container, #container2 {
 		padding: 0px;
 		margin-left: -20px;
 		margin-right: -20px;
@@ -10658,7 +10686,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container {
+	#container, #container2 {
 		
 		margin-left: 10px;
 		padding: 0px;
@@ -11226,7 +11254,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container {
+	#container, #container2 {
 		
 		
 		padding: 0px;
