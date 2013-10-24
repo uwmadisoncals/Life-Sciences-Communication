@@ -116,7 +116,7 @@ echo $category[0]->slug; ?></div>
 	</div>
 <?php get_footer(); ?>
 <script>
-	
+	setInterval(function() {
 	$("#container3").isotope({
         masonry: {
         columnWidth: 237
@@ -147,6 +147,6 @@ echo $category[0]->slug; ?></div>
         }
       });
       
-    
+      },1000);
 </script>
 </div>
