@@ -3697,7 +3697,7 @@ h1.logo {
 	text-decoration: underline;
 	}
 
-#container, #container2 {
+#container, #container2, #container3 {
   margin-left: -10px;
   margin-right: -10px;
   padding: 5px;
@@ -3706,7 +3706,7 @@ h1.logo {
   float: left;
 }
 
-#container.wide {
+#container.wide, #container2.wide, #container3.wide {
 	width: 960px;
 }
 
@@ -4286,6 +4286,23 @@ color: #B70101;
   /*height: 225px;*/
   margin: 5px;
   float: left;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+  color: #343434;
+  border: 1px solid #b7b7b7;
+  box-sizing: border-box;
+  -moz-box-shadow: 0px 1px 5px #a9a9a9;
+  -webkit-box-shadow: 0px 1px 5px #a9a9a9;
+	box-shadow: 0px 1px 5px #a9a9a9;
+	
+}
+
+.page-template-page-faculty-php .newsItem {
+  width: 224px;
+  /*height: 225px;*/
+  margin: 5px;
+  display: inline-block;
   overflow: hidden;
   position: relative;
   background: #ccc;
@@ -4980,6 +4997,21 @@ display: block;
 	max-height: 400px;
 	margin-bottom: -6px;
 }
+
+/*.page-template-page-faculty-php .newsItem .additionalContent {
+	color: #777777;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	max-height: 400px;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: -6px;
+}*/
+
+
+/*.page-template-page-faculty-php .newsItem .previousa .text {
+	height: 180px;
+}*/
 
 .newsItem a .additionalContent p, .newsItem .previousa .additionalContent p {
 	color: #484848;
@@ -8217,7 +8249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container, #container2 {
+	#container, #container2, #container3 {
 		
 		
 		padding: 0px;
@@ -8787,7 +8819,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container, #container2 {
+	#container, #container2, #container3 {
 		
 		
 		padding: 0px;
@@ -9370,7 +9402,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container, #container2 {
+	#container, #container2, #container3 {
 		
 		
 		padding: 0px;
@@ -9975,7 +10007,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container, #container2 {
+	#container, #container2, #container3 {
 		padding: 0px;
 		margin-left: -20px;
 		margin-right: -20px;
@@ -10686,7 +10718,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container, #container2 {
+	#container, #container2, #container3 {
 		
 		margin-left: 10px;
 		padding: 0px;
@@ -11254,7 +11286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', end
 		overflow: hidden;
 			}
 	
-	#container, #container2 {
+	#container, #container2, #container3 {
 		
 		
 		padding: 0px;

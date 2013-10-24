@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<div id="primary">
 		
-			<div id="container" class="wide">
+			<div id="container3" class="wide">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 
 					<?php //comments_template( '', true ); ?>
 					
-					<?php $args = array( 'post_type' => 'faculty', 'posts_per_page' => 20 );
+					<?php $args = array( 'post_type' => 'faculty', 'posts_per_page' => 40, 'orderby' => 'title', 'order' => 'ASC' );
 					$loop = new WP_Query( $args );
 					while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					
@@ -40,9 +40,11 @@ get_header(); ?>
 						    				echo get_the_post_thumbnail($page->ID, 'large');
 				 
 						    				} else {
-				 
-											 //echo '<img src="';
-											 echo catch_that_image();
+												
+												?>
+													<img src="<?php echo get_template_directory_uri(); ?>/images/avatarplaceholder.jpg" alt="no faculty image availble" />
+												<?php											 //echo '<img src="';
+											 //echo catch_that_image();
 											// echo '" alt="" />';
 				
 										}
@@ -114,8 +116,8 @@ echo $category[0]->slug; ?></div>
 	</div>
 <?php get_footer(); ?>
 <script>
-	setTimeout(function() {
-	$("#container").isotope({
+	
+	$("#container3").isotope({
         masonry: {
         columnWidth: 237
         
@@ -145,6 +147,6 @@ echo $category[0]->slug; ?></div>
         }
       });
       
-      },1000);
+    
 </script>
 </div>
