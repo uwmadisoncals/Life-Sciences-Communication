@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<div id="primary">
 		
-			<div id="container3" class="wide">
+			<div id="container4" class="wide">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 
 					<?php //comments_template( '', true ); ?>
 					
-					<?php $args = array( 'post_type' => 'faculty', 'posts_per_page' => 40, 'orderby' => 'title', 'order' => 'ASC' );
+					<?php $args = array( 'post_type' => 'faculty', 'meta_key' => 'last_name', 'posts_per_page' => 40, 'orderby' => 'last_name', 'order' => 'ASC' );
 					$loop = new WP_Query( $args );
 					while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					
