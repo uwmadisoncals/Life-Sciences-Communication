@@ -4341,6 +4341,9 @@ color: #B70101;
 	padding-bottom: 30px;
 }*/
 
+.ssp_slider .slide {
+	overflow: hidden;
+}
 
 .newsItem a:link, .newsItem a:visited, .newsItem .previousa, .newsItemAlt .previousa {
 	display: block;
