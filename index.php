@@ -240,11 +240,7 @@ echo $category[0]->slug; ?></div>
 					<span class="number">10</span>
     		</div>
     		
-    		<!--<a href="https://twitter.com/uw_lsc" class="highlight">
-	    		<div class="loadingSpinner" style="display: none;">
-	    			<div class="progress" style="width:100%;"></div>
-	    		</div>
-    		</a>-->
+    		
     	</div>
     	
     </div>
@@ -356,11 +352,7 @@ echo $category[0]->slug; ?></div>
 					<span class="number">10</span>
     		</div>
     		
-    		<!--<a href="https://twitter.com/uw_lsc" class="highlight">
-	    		<div class="loadingSpinner" style="display: none;">
-	    			<div class="progress" style="width:100%;"></div>
-	    		</div>
-    		</a>-->
+    		
     	</div>
     	
     </div>
@@ -463,11 +455,7 @@ echo $category[0]->slug; ?></div>
 					<span class="number">10</span>
     		</div>
     		
-    		<!--<a href="https://twitter.com/uw_lsc" class="highlight">
-	    		<div class="loadingSpinner" style="display: none;">
-	    			<div class="progress" style="width:100%;"></div>
-	    		</div>
-    		</a>-->
+    		
     	</div>
     	
     </div>
