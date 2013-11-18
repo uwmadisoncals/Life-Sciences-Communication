@@ -4349,6 +4349,10 @@ color: #B70101;
 	
 }
 
+.newsItem.twitter a {
+	display: inline;
+}
+
 .home .newsItem.storyFeature .previousa {
 	height: 530px !important;
 }
@@ -4899,13 +4903,73 @@ display: block;
 	
 }*/
 
-.newsItem a .dateheading, .newsItem .previousa .dateheading, .newsItemAlt .previousa .dateheading {
+.newsItem.twitter div.excerpt p.interact {
+	/*display: block;
+	position: absolute;
+	bottom: -14px;
+	left: 0px;
+	right: 0px;
+	z-index:3;
+	margin: 0px;*/
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.newsItem.twitter p.interact a {
+	display: inline-block;
+	height: 18px;
+	width: 23px;
+	
+		
+	text-indent: -100000px;
+}
+
+.newsItem.twitter p.interact a.twitter_reply_icon {
+	background: url("images/reply.png") no-repeat;
+	background-position: 0px 0px;
+}
+
+.newsItem.twitter p.interact a.twitter_reply_icon:hover {
+	background: url("images/reply.png") no-repeat;
+	background-position: 0px -18px;
+}
+
+.newsItem.twitter p.interact a.twitter_retweet_icon {
+	background: url("images/retweet.png") no-repeat;
+	background-position: 0px 0px;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+
+.newsItem.twitter p.interact a.twitter_retweet_icon:hover {
+	background: url("images/retweet.png") no-repeat;
+	background-position: 0px -18px;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+
+
+.newsItem.twitter p.interact a.twitter_fav_icon {
+	background: url("images/favorite.png") no-repeat;
+	background-position: 0px 0px;
+}
+
+
+.newsItem.twitter p.interact a.twitter_fav_icon:hover {
+	background: url("images/favorite.png") no-repeat;
+	background-position: 0px -18px;
+}
+
+
+
+.newsItem a .dateheading, .newsItem .previousa .dateheading, .newsItemAlt .previousa .dateheading, .newsItem.twitter p.timePosted {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	color: #7f7f7f;
-	margin-top: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 	font-size: 11px;
 }
 

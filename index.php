@@ -231,7 +231,7 @@ echo $category[0]->slug; ?></div>
     			
     			</div>
     			<div class="dateheading">
-    			Aug 25, 2013
+    			
     			</div>
     			<div class="hiddendate">2</div>
     			<div class="hiddengroup">twitter</div>
@@ -240,11 +240,11 @@ echo $category[0]->slug; ?></div>
 					<span class="number">10</span>
     		</div>
     		
-    		<a href="https://twitter.com/uw_lsc" class="highlight">
+    		<!--<a href="https://twitter.com/uw_lsc" class="highlight">
 	    		<div class="loadingSpinner" style="display: none;">
 	    			<div class="progress" style="width:100%;"></div>
 	    		</div>
-    		</a>
+    		</a>-->
     	</div>
     	
     </div>
@@ -347,7 +347,7 @@ echo $category[0]->slug; ?></div>
     			
     			</div>
     			<div class="dateheading">
-    			Aug 13, 2013
+    			
     			</div>
     			<div class="hiddendate">4</div>
     			<div class="hiddengroup">twitter</div>
@@ -356,11 +356,11 @@ echo $category[0]->slug; ?></div>
 					<span class="number">10</span>
     		</div>
     		
-    		<a href="https://twitter.com/uw_lsc" class="highlight">
+    		<!--<a href="https://twitter.com/uw_lsc" class="highlight">
 	    		<div class="loadingSpinner" style="display: none;">
 	    			<div class="progress" style="width:100%;"></div>
 	    		</div>
-    		</a>
+    		</a>-->
     	</div>
     	
     </div>
@@ -454,7 +454,7 @@ echo $category[0]->slug; ?></div>
     			
     			</div>
     			<div class="dateheading">
-    			Aug 17, 2013
+    			
     			</div>
     			<div class="hiddendate">6</div>
     			<div class="hiddengroup">twitter</div>
@@ -463,11 +463,11 @@ echo $category[0]->slug; ?></div>
 					<span class="number">10</span>
     		</div>
     		
-    		<a href="https://twitter.com/uw_lsc" class="highlight">
+    		<!--<a href="https://twitter.com/uw_lsc" class="highlight">
 	    		<div class="loadingSpinner" style="display: none;">
 	    			<div class="progress" style="width:100%;"></div>
 	    		</div>
-    		</a>
+    		</a>-->
     	</div>
     	
     </div>

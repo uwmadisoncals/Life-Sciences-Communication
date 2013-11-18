@@ -368,7 +368,7 @@ var countFeatures = 0;
 		
 		
 		
-		
+		if(!$(this).hasClass("twitter")) {
 		
 		$(this).find('.excerpt a').remove();
 		var tempexcerpt = $(this).find('.excerpt').text();
@@ -385,8 +385,9 @@ var countFeatures = 0;
 			tempexcerpt = tempexcerpt.slice(0, -2);
 			var shortexcerpt = "<p>"+tempexcerpt.substring(0,120)+"&#8230;</p>";
 			$(this).find('.excerpt').html(shortexcerpt);
+			
 		}
-		
+		}
 			
 			
 		
