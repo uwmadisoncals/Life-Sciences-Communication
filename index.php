@@ -221,7 +221,7 @@ echo $category[0]->slug; ?></div>
     		</div>
     		
     		<div class="text">
-    			<div class="glyph"><div class="symbol"></div></div>
+    			<div class="glyph"><a href="http://twitter.com/uw_lsc" class="symbol"></a></div>
     			<div class="titleheading">
     			<h3 id="twitter_box">Twitter</h3>
     			</div>
@@ -334,7 +334,7 @@ echo $category[0]->slug; ?></div>
     		</div>
     		
     		<div class="text">
-    			<div class="glyph"><div class="symbol"></div></div>
+    			<div class="glyph"><a href="http://twitter.com/uw_lsc" class="symbol"></a></div>
     			<div class="titleheading">
     			<h3 id="twitter_box">Twitter</h3>
     			</div>
@@ -435,7 +435,7 @@ echo $category[0]->slug; ?></div>
     		</div>
     		
     		<div class="text">
-    			<div class="glyph"><div class="symbol"></div></div>
+    			<div class="glyph"><a href="http://twitter.com/uw_lsc" class="symbol"></a></div>
     			<div class="titleheading">
     			<h3 id="twitter_box">Twitter</h3>
     			</div>

@@ -4357,6 +4357,10 @@ color: #B70101;
 	display: inline;
 }
 
+.newsItem.twitter a.symbol {
+	display: block;
+}
+
 .home .newsItem.storyFeature .previousa {
 	height: 530px !important;
 }
