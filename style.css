@@ -76,6 +76,11 @@ body {
 	padding: 0 2em;
 	
 }
+
+.headingTitle {
+	opacity: 0;	
+}
+
 #page {
 	margin: 0 auto;
 	/*width: 960px;*/
@@ -2647,7 +2652,7 @@ p.comment-form-comment {
 #supplementary.three .widget-area {
 	float: left;
 	margin-right: 3.7%;
-	width: 30.85%;
+	width: 23%;
 }
 #supplementary.three .widget-area + .widget-area + .widget-area {
 	margin-right: 0;
@@ -5586,7 +5591,7 @@ footer .inner {
 }
 
 footer .inner #pre-footer .linksContainer {
-	width: 50%;
+	width: 100%;
 	box-sizing: border-box;
 	float: left;
 }
