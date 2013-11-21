@@ -182,7 +182,7 @@ echo '<li><a href="#" data-cat="'.$cat->slug.'" class="selected categor">'.$cat-
     			<div class="excerpt">
     			
 	    		
-			<?php the_content_rss('', FALSE, '', 180); ?>
+			<?php the_content_rss('', FALSE, '', 150); ?>
     			
     			
     			</div>
@@ -288,7 +288,7 @@ echo $category[0]->slug; ?></div>
     			<div class="excerpt">
     			
 	    		
-			<?php the_content_rss('', FALSE, '', 180); ?>
+			<?php the_content_rss('', FALSE, '', 150); ?>
     			
     			
     			</div>
@@ -397,7 +397,7 @@ echo $category[0]->slug; ?></div>
     			<div class="excerpt">
     			
 	    		
-			<?php the_content_rss('', FALSE, '', 180); ?>
+			<?php the_content_rss('', FALSE, '', 150); ?>
     			
     			
     			</div>

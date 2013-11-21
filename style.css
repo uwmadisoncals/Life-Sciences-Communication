@@ -399,6 +399,10 @@ div#content.singlecol {
 
 .wsp_default_skin p.flex-caption span.subHeading {
 	color: #a0b734;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 
@@ -4475,7 +4479,7 @@ color: #B70101;
 .newsItem.homewidget .previousa h3, .widget-area h3 {
 	font-family: "Open Sans";
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 15px;
 	color: #91621e;
 	font-weight: bold;
 }
@@ -5395,6 +5399,9 @@ display: block;
 
 .newsItem .text h3 {
 	color: #ae7619;
+	font-family: "Open Sans";
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .newsItem.faculty .text h3 {
