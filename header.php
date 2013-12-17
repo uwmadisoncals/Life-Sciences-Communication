@@ -176,19 +176,26 @@ $current_colorscheme = $options['link_color'];
 					<li class="subheading" style="display: block;">Results <span id="filter-count"></span></li>
 					<?php
 
-// The Query
-query_posts( );
 
-// The Loop
-while ( have_posts() ) : the_post();
-	echo '<li>';
-	echo '<a href="';
-	the_permalink();
-	echo '">';
-	the_title();
+$args = array( 'posts_per_page' => 100 );
+
+$myposts = get_posts( $args );
+foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+	<li>
+		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+	</li>
+<?php endforeach; 
+wp_reset_postdata(); 
+
+$pages = get_pages(); 
+  foreach ( $pages as $page ) {
+  	echo '<li>';
+  	echo '<a href="' . get_page_link( $page->ID ) . '">';
+	echo $page->post_title;
 	echo '</a>';
 	echo '</li>';
-endwhile;
+	
+  } 
 
 // Reset Query
 wp_reset_query();

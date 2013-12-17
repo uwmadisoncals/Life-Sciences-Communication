@@ -334,6 +334,9 @@ margin-bottom: 40px;
 
 div#content.singlecol {
 	width: 940px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Simplify the pullquotes and pull styles */
@@ -2656,7 +2659,7 @@ p.comment-form-comment {
 #supplementary.three .widget-area {
 	float: left;
 	margin-right: 3.7%;
-	width: 23%;
+	width: 43%;
 }
 #supplementary.three .widget-area + .widget-area + .widget-area {
 	margin-right: 0;
@@ -3779,7 +3782,7 @@ h1.logo {
 
 @-moz-document url-prefix() {
 	.single #content, .page #content, .search-results #content {
-	position: relative;
+	/*position: relative;
   background: #fff;
   padding: 30px;
   color: #343434;
@@ -3790,7 +3793,10 @@ h1.logo {
   box-shadow: 0px 1px 5px #a9a9a9;
   float: left;
   width: 637px;
-  margin-right: -20px;
+  margin-right: -20px;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 }
@@ -5562,6 +5568,23 @@ display: block;
 	background-size: 302px 302px;
 }
 
+.mobileScroll {
+		position: relative;
+		z-index:2;
+	}
+	
+	.page-id-59 #content table tr td:first-child {
+		width: 50%;
+	}
+	
+	.page-id-59 #content table tr td:nth-child(2) {
+		width: 50px;
+	}
+	
+	.page-id-59 #content table tr td:nth-child(3) {
+		width: 100px;
+	}
+
 
 .newsItem.People .text .glyph .symbol, .newsItem.Communities .text .glyph .symbol {
 	background: url("images/faces_glyph.png") no-repeat;
@@ -5598,7 +5621,7 @@ footer .inner {
 }
 
 footer .inner #pre-footer .linksContainer {
-	width: 100%;
+	width: 50%;
 	box-sizing: border-box;
 	float: left;
 }
@@ -5637,6 +5660,18 @@ footer .inner #pre-footer .button {
 	text-align: center;
 	margin-bottom: 40px;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.storyEntry {
+	margin-bottom: 5em;
+}
+
+.storyEntry h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	line-height: 1.5em;
 }
 
 footer .inner #pre-footer #quick_links {
@@ -8070,6 +8105,8 @@ and (orientation : portrait) {
 		background-repeat: repeat;
 		
 	}
+	
+	
 	
 	.customize {
 		opacity: 0;

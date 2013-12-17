@@ -75,7 +75,7 @@ if ( 'content' != $current_layout ) : ?>
 </div>
 		<div class="centeredContainerInset topspace">
  
-  <h2 class="sectionTitle">Highlights</h2>
+ 
   
   	<div class="newsItem customize">
 			<span class="number">1</span>
