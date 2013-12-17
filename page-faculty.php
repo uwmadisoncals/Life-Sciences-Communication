@@ -57,6 +57,7 @@ get_header(); ?>
 				    		<div class="text">
     			<div class="glyph"></div>
     			<div class="titleheading">
+    			<div class="fadetowhite"></div>
     			<h3><?php the_title(); ?></h3>
     			<div class="workingTitle"><?php the_field('professional_title'); ?></div>
     			
