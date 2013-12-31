@@ -4632,10 +4632,13 @@ div.newsItem div.workingTitle, div.newsItemAlt div.workingTitle {
 .Safari .newsItem a .text, .Chrome .newsItem a .text, .Firefox .newsItem a .text, .Chrome .newsItem a .text, .Safari .newsItem .previousa .text, .Chrome .newsItem .previousa .text, .Firefox .newsItem .previousa .text, .Chrome .newsItem .previousa .text, .newsItem .previousa .text, .Safari .newsItemAlt .previousa .text, .Chrome .newsItemAlt .previousa .text, .Firefox .newsItemAlt .previousa .text {
 	margin-left: -24px;
 	margin-right: -24px;	
+	
 }
 
+
+
 .storyFeature .previousa .text, .twitter .previousa .text {
-	height: 300px;
+	height: 500px;
 }
 
 /*.Safari .newsItem.noImage a .text, .Chrome .newsItem.noImage a .text, .Firefox .newsItem.noImage a .text, .Chrome .newsItem.noImage a .text, .Safari .newsItem.noImage .previousa .text, .Chrome .newsItem.noImage .previousa .text, .Firefox .newsItem.noImage .previousa .text, .Chrome .newsItem.noImage .previousa .text, .newsItem.noImage .previousa .text {
@@ -5091,6 +5094,15 @@ display: block;
 	font-weight: 300;
 	font-family: 'Open Sans', sans-serif;
 	max-height: 300px;
+	overflow: hidden;
+	margin-bottom: -6px;
+}
+
+.home .newsItem .additionalContent {
+	color: #777777;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	max-height: 200px;
 	overflow: hidden;
 	margin-bottom: -6px;
 }
