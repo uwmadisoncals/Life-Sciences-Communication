@@ -18,7 +18,7 @@
 		
 		<?php
 // The Query
-query_posts( array( 'post_type' => 'publications','posts_per_page' => 5 ) );
+query_posts( array( 'post_type' => 'publications','posts_per_page' => 4 ) );
 
 // The Loop
 while ( have_posts() ) : the_post();
