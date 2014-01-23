@@ -11,7 +11,7 @@
 <div class="newsItem homewidget">
 	<div class="previousa">
 		<div class="titleheading">
-			<h3>Publications</h3>
+			<h3>Recent Publications</h3>
 		</div>
 		<ul>
 		

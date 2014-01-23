@@ -4563,8 +4563,17 @@ div.newsItem.homewidget ul, div.newsItem.homewidget ol {
 .newsItem.homewidget ul li a {
 	text-align: left;
 	padding-top: 12px;
-	padding-bottom: 12px;
+	
+	
+}
+
+.newsItem.homewidget ul li {
 	border-bottom: 1px solid #ccc;
+	margin-bottom: 12px;
+}
+
+.newsItem.homewidget ul li:last-child {
+	border-bottom: none;
 }
 
 .newsItem.homewidget a:link, .newsItem.homewidget a:visited, .newsItem.homewidget .previousa {
