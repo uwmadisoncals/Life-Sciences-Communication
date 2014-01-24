@@ -132,7 +132,7 @@ echo '<li><a href="#" data-cat="'.$cat->slug.'" class="selected categor">'.$cat-
 
 
 		
-   		<?php	query_posts( 'showposts=1&cat=3,2' );  ?>
+   		<?php	query_posts( 'showposts=1&cat=3' );  ?>
 
 			<?php if ( have_posts() ) : ?>
 
@@ -248,7 +248,7 @@ echo $category[0]->slug; ?></div>
 				
 
 
-<?php query_posts('cat=3,2&showposts=1&offset=1'); ?>
+<?php query_posts('cat=2&showposts=1'); ?>
 
   <?php while (have_posts()) : the_post(); ?>
     <!-- Do special_cat stuff... -->
@@ -357,7 +357,7 @@ echo $category[0]->slug; ?></div>
     	
     </div>
     
-    <?php query_posts('cat=3,2&showposts=1&offset=2'); ?>
+    <?php query_posts('cat=5&showposts=1'); ?>
 
   <?php while (have_posts()) : the_post(); ?>
     <!-- Do special_cat stuff... -->
