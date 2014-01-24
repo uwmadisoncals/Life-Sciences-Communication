@@ -5584,11 +5584,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 
-.newsItem.teaching-resources .text .glyph .symbol {
+.newsItem.teaching-resources .text .glyph .symbol, .newsItem.teaching-outreach .text .glyph .symbol {
 	background: url("images/graduate_glyph.png") no-repeat;
 }
 
-.newsItem.teaching-resources .text h3 {
+.newsItem.teaching-resources .text h3, .newsItem.teaching-outreach .text h3 {
 	color: #941919;
 }
 
