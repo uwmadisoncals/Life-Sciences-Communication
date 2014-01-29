@@ -4605,6 +4605,10 @@ div.newsItem div.workingTitle, div.newsItemAlt div.workingTitle {
 	margin-left: 0px;
 }
 
+.page-id-372 .cat-item-1 {
+	display: none;
+}
+
 
 .newsItem a .text .excerpt, .newsItem .previousa .text .excerpt, .newsItemAlt .previousa .text .excerpt {
 	display: block;
