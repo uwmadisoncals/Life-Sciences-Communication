@@ -47,7 +47,7 @@ if ( ! isset( $content_width ) )
 add_filter( ‘xmlrpc_methods’, function( $methods ) {
    unset( $methods['pingback.ping'] );
    return $methods;
-} ); 
+} );
 /**
  * Tell WordPress to run twentyeleven_setup() when the 'after_setup_theme' hook is run.
  */
