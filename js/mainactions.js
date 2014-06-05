@@ -1048,7 +1048,7 @@ var countFeatures = 0;
     $('body').addClass(BrowserDetect.browser);
 
     if(BrowserDetect.OS == "iPhone/iPod") {
-	    $('body').addClass("iPhone");
+	    /*$('body').addClass("iPhone");*/
     } else {
     	$('body').addClass(BrowserDetect.OS);
     }
@@ -1081,8 +1081,8 @@ var countFeatures = 0;
 			}*/
 
     if(BrowserDetect.OS == "iPhone/iPod" || (BrowserDetect.OS == "Linux" && BrowserDetect.browser == "Chrome")) {
-    	$('body').addClass("mobile");
-    	isMobile = true;
+    	/*$('body').addClass("mobile");
+    	isMobile = true;*/
     }
 
     //Count the number of images in the articles section
@@ -1323,9 +1323,9 @@ var countFeatures = 0;
 		              //If mobile, hide main filter menu
 				      if(BrowserDetect.OS == "iPhone/iPod" || (BrowserDetect.OS == "Linux" && BrowserDetect.browser == "Chrome") || navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
 					      //console.log('hide customize menu');
-					      var filterquery = filterquery +', .customize, .duplicate';
-					      reDraw();
-					  }
+					      //var filterquery = filterquery +', .customize, .duplicate';
+					      //reDraw();
+					  		}
 
 		             var categories = startingcategoriesarray;
 
@@ -1353,7 +1353,7 @@ var countFeatures = 0;
 			     	//If mobile, hide main filter menu
 				      if(BrowserDetect.OS == "iPhone/iPod" || (BrowserDetect.OS == "Linux" && BrowserDetect.browser == "Chrome") || navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
 					      //console.log('hide customize menu');
-					      var filterquery = filterquery +', .customize, .duplicate';
+					      //var filterquery = filterquery +', .customize, .duplicate';
 
 					      //$container.isotope({ filter: ".newsItem:not(.duplicate, .customize)" });
 					      //reDraw();
