@@ -15,6 +15,10 @@
 		float: left;
 	}
 
+	.collegeFeature2 {
+		width: 620px;
+	}
+
 	.newsItem.homewidget {
 		width: 150px;
 	}
@@ -123,6 +127,10 @@
 
 
 
+	}
+
+	.collegeFeature2 {
+		width: 90%;
 	}
 
 	.home .newsItem.storyFeature .previousa {
