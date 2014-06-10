@@ -16,7 +16,7 @@ d;)f+="<li>"+b[e]+"</li>",e++;h.innerHTML=f+"</ul>";n=!1;0<g.length&&(twitterFet
 * ### HOW TO CREATE A VALID ID TO USE: ###
 * Go to www.twitter.com and sign in as normal, go to your settings page.
 * Go to "Widgets" on the left hand side.
-* Create a new widget for what you need eg "user timeline" or "search" etc. 
+* Create a new widget for what you need eg "user timeline" or "search" etc.
 * Feel free to check "exclude replies" if you dont want replies in results.
 * Now go back to settings page, and then go back to widgets page, you should
 * see the widget you just created. Click edit.
@@ -28,7 +28,7 @@ d;)f+="<li>"+b[e]+"</li>",e++;h.innerHTML=f+"</ul>";n=!1;0<g.length&&(twitterFet
 /**
  * How to use fetch function:
  * @param {string} id Your Twitter widget ID.
- * @param {string} domId The ID of the DOM element you want to write results to. 
+ * @param {string} domId The ID of the DOM element you want to write results to.
  * @param {int} maxNumberOfTweets Optional - the maximum number of tweets you
  *     want returned. Must be a number between 1 and 20.
  * @param {boolean} parseLinks Optional - set true if you want urls and hash
@@ -39,9 +39,9 @@ d;)f+="<li>"+b[e]+"</li>",e++;h.innerHTML=f+"</ul>";n=!1;0<g.length&&(twitterFet
  *     to show.
  */
 
-// An example to get my latest 10 tweets and write to a HTML element with id 
+// An example to get my latest 10 tweets and write to a HTML element with id
 // "tweets".
-twitterFetcher.fetch('346657966314909696', 'twitter_box', 1, true, false, false);
+twitterFetcher.fetch('346657966314909696', 'twitter_box', 1, true, false, false, null, true);
 // An example to get latest 5 posts using hashtag #API and write to a HTML
 // element with id "tweets2" without showing time of tweets.
 //twitterFetcher.fetch('345690956013633536', 'tweets2', 5, true, true, false);
