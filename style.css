@@ -8151,3 +8151,11 @@ margin-left: 0px;
 	}
 
 }
+
+.gform_confirmation_message {
+	font-size: 22px;
+	color: #9cb54e;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
