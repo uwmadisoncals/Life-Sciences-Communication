@@ -30,7 +30,7 @@
 Communication by making a gift to the 
 University of Wisconsin Foundation.</p>
 				<a href="https://secure.supportuw.org/MultiPage/processStep1.do?seq=1441" class="button">Make a Gift</a>
-				<p class="address">Department of Life Sciences Communication | Hiram Smith Hall | 1545 Observatory Drive | Madison, WI 53706 | 608.262.1464</p>
+				<p class="address">Department of Life Sciences Communication | Hiram Smith Hall | 1545 Observatory Drive | Madison, WI 53706 | 608.262.1464 </p>
 			</div>
 			<div class="clearfix"></div>
         </div>

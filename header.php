@@ -117,6 +117,7 @@ $current_colorscheme = $options['link_color'];
 <body <?php body_class(); ?> id="<?php echo $current_colorscheme; ?>">
 
 <div id="page" class="hfeed">
+	<div class="backgroundHeader"></div>
 	<header id="branding" role="banner">
 			<hgroup class="heading">
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
