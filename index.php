@@ -226,7 +226,9 @@ echo $category[0]->slug; ?></div>
     			<h3 id="twitter_box">Twitter</h3>
     			</div>
     			<div class="excerpt" id="firstRecentTweet">
-			
+				
+				<div id="example5">
+				</div>
     			
     			
     			</div>

@@ -18,6 +18,9 @@ f[a].setAttribute("aria-label",b);if(e[a].innerText)if(v)f[a].innerText=b;else{v
 h[a]+'" class="twitter_fav_icon">Favorite</a></p>');c.push(b);a++}if(null==w){e=c.length;g=0;f=document.getElementById(y);for(h="<ul>";g<e;)h+="<li>"+c[g]+"</li>",g++;f.innerHTML=h+"</ul>"}else w(c);t=!1;0<k.length&&(twitterFetcher.fetch(k[0].id,k[0].domId,k[0].maxTweets,k[0].enableLinks,k[0].showUser,k[0].showTime,k[0].dateFunction,k[0].showRt,k[0].customCallback,k[0].showInteraction),k.splice(0,1))}}}();
 
 twitterFetcher.fetch('402446574954901504', '', 5, true, false, true, '', false, firstRecentTweet, true );
+//twitterFetcher.fetch('341638026499350528', '', 5, true, false, true, '', false, firstRecentTweet, true );
+
+
 
 
 function firstRecentTweet(tweets){
