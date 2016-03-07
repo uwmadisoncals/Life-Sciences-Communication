@@ -96,7 +96,7 @@ var config5 = {
   "maxTweets": 3,
   "enableLinks": true,
   "showUser": false,
-  "showTime": true,
+  "showTime": false,
   "dateFunction": '',
   "showRetweet": false,
   "customCallback": handleTweets,
