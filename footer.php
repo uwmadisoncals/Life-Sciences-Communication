@@ -54,6 +54,8 @@ University of Wisconsin Foundation.</p>
 			<a href="https://twitter.com/uw_lsc" class="twitter">Twitter</a>
 
 			<a href="https://www.facebook.com/UWMadisonLSC" class="facebook">Facebook</a>
+
+			<a href="https://www.instagram.com/uwmadison_lsc/" class="instagram">Instagram</a>
 		</div>
 			<div class="clearfix"></div>
         </div>

@@ -5815,10 +5815,22 @@ footer .socialRef {
 footer .socialRef .twitter {
 	display: block;
 	float: right;
-	width: 30px;
-	height: 30px;
+	width: 32px;
+	height: 32px;
 	text-indent: -10000px;
-	background: url("images/twitterlogo.png") no-repeat;
+	/*background: url("images/twitterlogo.png") no-repeat;*/
+	background: url("images/lsc_twitter.png") no-repeat;
+	border: none;
+	margin-left: 7px;
+}
+
+footer .socialRef .instagram {
+	display: block;
+	float: right;
+	width: 32px;
+	height: 32px;
+	text-indent: -10000px;
+	background: url("images/lsc_instagram.png") no-repeat;
 	border: none;
 	margin-left: 7px;
 }
@@ -5837,10 +5849,11 @@ footer .socialRef .youtube {
 footer .socialRef .facebook {
 	display: block;
 	float: right;
-	width: 30px;
-	height: 30px;
+	width: 32px;
+	height: 32px;
 	text-indent: -10000px;
-	background: url("images/facebooklogo.png") no-repeat;
+	/*background: url("images/facebooklogo.png") no-repeat;*/
+	background: url("images/lsc_facebook.png") no-repeat;
 	border: none;
 	margin-left: 7px;
 }
